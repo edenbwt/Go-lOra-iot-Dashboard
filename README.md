@@ -16,6 +16,8 @@ Welcome to the Go-lOra-iot-Dashboard project repository! This project was develo
 ## Dependencies
 - FiPy Module Libraries
 - MQTT Library
+- ## TODO
+make the connection to the MQQT server and better UI
 
 ## Contributing
 Contributions to this project are welcome! If you have any ideas for improvements, bug fixes, or new features, feel free to submit a pull request or open an issue.
