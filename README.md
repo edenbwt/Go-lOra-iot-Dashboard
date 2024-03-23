@@ -22,5 +22,6 @@ Contributions to this project are welcome! If you have any ideas for improvement
 
 ## Acknowledgments
 - Special thanks to the contributors and developers of the libraries and frameworks used in this project.
+- Big thanks to my mates in school ho I'm doing the project Wis
 
 
