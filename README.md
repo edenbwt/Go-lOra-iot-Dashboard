@@ -1,5 +1,7 @@
-<img src="https://cdn.discordapp.com/attachments/1183813287603875932/1221022782880743435/Design_sans_titre.png?ex=66111114&is=65fe9c14&hm=d3f3dc4df33a895059151637f78b6f7dc6471909a632f0083616dc51ad426d11&" width="75%">
+<img src="https://cdn.discordapp.com/attachments/1183813287603875932/1221022782880743435/Design_sans_titre.png?ex=66111114&is=65fe9c14&hm=d3f3dc4df33a895059151637f78b6f7dc6471909a632f0083616dc51ad426d11&" width="25%">
+
 # Go-lOra-iot-Dashboard
+
 
 ## Overview
 Welcome to the Go-lOra-iot-Dashboard project repository! This project was developed as part of a school project. It involves using a FiPy module and a temperature sensor to create a LoRaWAN IoT sensor. Additionally, a dashboard is created to visualize the data received from the sensor through an MQTT server.
