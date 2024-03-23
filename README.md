@@ -1,4 +1,4 @@
-![Project Logo](https://cdn.discordapp.com/attachments/1183813287603875932/1221022782880743435/Design_sans_titre.png?ex=66111114&is=65fe9c14&hm=d3f3dc4df33a895059151637f78b6f7dc6471909a632f0083616dc51ad426d11&)
+<img src="https://cdn.discordapp.com/attachments/1183813287603875932/1221022782880743435/Design_sans_titre.png?ex=66111114&is=65fe9c14&hm=d3f3dc4df33a895059151637f78b6f7dc6471909a632f0083616dc51ad426d11&" width="50%">
 # Go-lOra-iot-Dashboard
 
 ## Overview
