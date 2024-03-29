@@ -9,6 +9,7 @@ Bienvenue dans le référentiel du projet Tableau de Bord Go-lOra-iot ! Ce proje
 - **Connectivité LoRaWAN** : Établit une connexion LoRaWAN pour la transmission de données.
 - **Serveur MQTT** : Facilite la communication entre le capteur et le tableau de bord.
 - **Visualisation sur le Tableau de Bord** : Affiche les données en temps réel reçues du capteur dans une interface de tableau de bord conviviale.
+- **Log les donnes** :  Enregistre les données de températures sur une base de données SQL.
 
 ## Dépendances
 - Bibliothèques du Module FiPy
