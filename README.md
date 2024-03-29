@@ -19,5 +19,5 @@ Bienvenue dans le référentiel du projet Tableau de Bord Go-lOra-iot ! Ce proje
 Les contributions à ce projet sont les bienvenues ! Si vous avez des idées d'améliorations, de corrections de bugs ou de nouvelles fonctionnalités, n'hésitez pas à soumettre une pull request ou à ouvrir un ticket.
 
 ## Remerciements
-- Un grand merci à mes camarades d'école avec qui je réalise le projet Wis.
+- Un grand merci à mes camarades d'école avec qui je réalise le projet.
 - Merci à JetBrains de m'avoir fourni une clé de produit étudiant pour Goland :)
