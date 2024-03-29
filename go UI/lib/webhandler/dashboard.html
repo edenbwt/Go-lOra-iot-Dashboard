@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard Home</title>
+    <link rel="icon" href=
+            "https://cdn.discordapp.com/attachments/1183813287603875932/1221022782880743435/Design_sans_titre.png?ex=66111114&is=65fe9c14&hm=d3f3dc4df33a895059151637f78b6f7dc6471909a632f0083616dc51ad426d11&"
+          type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(15, 15, 15);
+            color: rgb(0, 129, 112);
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgb(35, 45, 63);
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: rgb(0, 91, 65);
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        strong {
+            font-weight: bold;
+        }
+        span {
+            color: rgb(0, 129, 112);
+        }
+        .sensor-preview {
+            margin-top: 30px;
+            text-align: center;
+            border: 1px solid rgb(0, 129, 112);
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .sensor-value {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .sensor-link {
+            color: rgb(0, 129, 112);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .sensor-link:hover {
+            color: rgb(0, 91, 65);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Welcome to Our Engineering Project Dashboard</h1>
+    <p>This dashboard provides an overview of our ongoing engineering project. Below, you'll find some information about the project and its current status:</p>
+    <p><strong>Project Title:</strong> <span id="project-title">Engineering Project X</span></p>
+    <p><strong>Description:</strong> <span id="project-description">This project aims to revolutionize the field of [insert field here] by developing innovative solutions for [insert purpose here].</span></p>
+    <p><strong>Progress:</strong> <span id="project-progress">Currently, we are in the initial stages of research and planning.</span></p>
+    <p><strong>Next Steps:</strong> <span id="next-steps">Our next steps involve conducting feasibility studies and prototyping.</span></p>
+
+    <!-- Sensor Preview -->
+    <div class="sensor-preview">
+        <p>Temperature Sensor Reading: <span class="sensor-value" id="temperature">Loading...</span></p>
+        <a href="/sensor" class="sensor-link">View Sensor Details</a>
+    </div>
+</div>
+
+<script>
+    // Replace placeholder text with actual project information
+    document.getElementById('project-title').textContent = "Engineering Project X";
+    document.getElementById('project-description').textContent = "This project aims to revolutionize the field of [insert field here] by developing innovative solutions for [insert purpose here].";
+    document.getElementById('project-progress').textContent = "Currently, we are in the initial stages of research and planning.";
+    document.getElementById('next-steps').textContent = "Our next steps involve conducting feasibility studies and prototyping.";
+
+    // Simulate fetching temperature data
+    function fetchTemperatureData() {
+        // Simulate fetching data (replace with actual data fetching)
+        setTimeout(() => {
+            const temperatureValue = Math.floor(Math.random() * 50) + 10; // Random value for demonstration
+            document.getElementById('temperature').textContent = temperatureValue + "°C";
+        }, 1000); // Simulated delay of 1 second
+    }
+
+    // Fetch temperature data initially when the page loads
+    fetchTemperatureData();
+
+    // Fetch temperature data every 5 seconds
+    setInterval(fetchTemperatureData, 5000);
+</script>
+</body>
+</html>
