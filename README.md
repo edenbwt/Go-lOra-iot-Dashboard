@@ -14,10 +14,6 @@ Bienvenue dans le référentiel du projet Tableau de Bord Go-lOra-iot ! Ce proje
 - Bibliothèques du Module FiPy
 - Bibliothèque MQTT
   
-## À Faire
-- Établir la connexion au serveur MQTT.
-- Améliorer l'interface utilisateur.
-
 ## Contribuer
 Les contributions à ce projet sont les bienvenues ! Si vous avez des idées d'améliorations, de corrections de bugs ou de nouvelles fonctionnalités, n'hésitez pas à soumettre une pull request ou à ouvrir un ticket.
 
