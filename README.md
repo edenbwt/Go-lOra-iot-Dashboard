@@ -1,7 +1,7 @@
 # Tableau de Bord Go-LORA-UI
 ## Aperçu
 Bienvenue dans le référentiel du projet Tableau de Bord Go-lOra-iot ! Ce projet a été développé dans le cadre d'un projet scolaire. Il implique l'utilisation d'un module FiPy et d'un capteur de température pour créer un capteur IoT LoRaWAN. De plus, un tableau de bord est créé pour visualiser les données reçues du capteur via un serveur MQTT.
-![plot](img/Capture d’écran 2024-03-29 144608.png)
+[![plot](img/Capture d’écran 2024-03-29 144608.png)](https://github.com/edenbwt/Go-lOra-iot-Dashboard/blob/b5a61064b6f05915d685b3096b309f9745bfcb4b/img/Capture%20d%E2%80%99%C3%A9cran%202024-03-29%20144608.png)
 
 ## Fonctionnalités
 - **Intégration du Module FiPy** : Utilise le module FiPy pour la communication sans fil.
