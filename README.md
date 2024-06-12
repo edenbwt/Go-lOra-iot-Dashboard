@@ -21,3 +21,6 @@ Les contributions à ce projet sont les bienvenues ! Si vous avez des idées d'a
 ## Remerciements
 - Un grand merci à mes camarades d'école avec qui je réalise le projet.
 - Merci à JetBrains de m'avoir fourni une clé de produit étudiant pour Goland :)
+
+##help
+BTC addres: bc1qeqcu2c6rr6g8dtzw552r40wnnlrz7mrwahne5e
